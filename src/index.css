@@ -1,0 +1,42 @@
+#app {
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.form-group {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+  padding-top: 2%;
+}
+
+.form-group button {
+  margin-top: 15px;
+  float: right;
+}
+
+label {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.table-dark {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  padding-top: 5%;
+  text-align: center;
+}

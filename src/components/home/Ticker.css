@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.forex-ticker {
+  width: 50%;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .forex-ticker {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .forex-ticker {
+    margin-top: 15%;
+  }
+}
+
+.forex-ticker .currency-pair {
+  font-size: 1.4rem;
+}
+
+.forex-ticker table {
+  color: #c1c2cd;
+  font-weight: 300;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.forex-ticker table td {
+  height: 60px;
+  border-bottom: 1px solid #474747;
+}
+
+.forex-ticker table td.powered-by {
+  height: 30px;
+  text-align: right;
+  font-size: 0.7rem;
+}
+
+.forex-ticker table tr.last td {
+  border-bottom: none;
+}
+
+.price.up .bottom {
+  color: #85b32b;
+  text-shadow: 0 0 1px #85b32b;
+}
+
+.price.down .bottom {
+  color: #c84c40;
+  text-shadow: 0 0 1px #c84c40;
+}
+
+.price .top {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  text-align: right;
+  opacity: 0.5;
+}
+
+.price .bottom {
+  text-align: right;
+  font-size: 2rem;
+  line-height: 1.8rem;
+}
+
+.price .bottom .last {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  vertical-align: top;
+}
